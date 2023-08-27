@@ -1,10 +1,4 @@
-from typing import String
-
 """ Selection Sort Algorithm in Python """
-
-test: String
-test = 1
-print(test)
 
 
 def selection_sort(arr: list, size: int) -> None:

@@ -2,8 +2,8 @@
 
 
 def bubble_sort(arr: list) -> None:
-    n = len(arr)
-    swapped = False
+    n: int = len(arr)
+    swapped: bool = False
     for i in range(n-1):
         for j in range(0, n-i-1):
             if arr[j] > arr[j+1]:
